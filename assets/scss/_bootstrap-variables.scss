@@ -3,21 +3,21 @@ $grid-breakpoints: (
   sm: 576px,
   md: 768px,
   lg: 992px,
-  xl: 1300px,
+  xl: 1300px
 );
 
 $container-max-widths: (
   sm: 540px,
   md: 720px,
   lg: 960px,
-  xl: 1140px,
+  xl: 1140px
 );
 
 $grid-gutter-width: 20px;
 
 $white: #ffffff;
 $black: #000000;
-$primary: #1c3ed3;
+$primary: #ff0000;
 $secondary: #414156;
 
 // Links
@@ -27,8 +27,10 @@ $link-hover-color: lighten($primary, 20%);
 $link-hover-decoration: underline;
 
 // Fonts
-$font-family-base: 'Open Sans', Arial, sans-serif, -apple-system;
-$font-family-heading: 'Lora', Arial, sans-serif, -apple-system;
+$font-play: "Play", sans-serif, -apple-system;
+$font-noticia: "Noticia Text", serif, -apple-system;
+$font-family-base: $font-noticia;
+$font-family-heading: $font-play;
 $font-weight-thin: 200;
 $font-weight-light: 300;
 $font-weight-normal: 400;
@@ -61,7 +63,7 @@ $spacers: map-merge(
     17: 170px,
     18: 180px,
     19: 190px,
-    20: 200px,
+    20: 200px
   ),
   $spacers
 );
